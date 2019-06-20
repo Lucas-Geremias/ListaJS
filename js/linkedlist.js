@@ -4,7 +4,8 @@ class LinkedList{
         this.head=null;
         this.length=0;
     }
-
+//Uma string vazia tem um comprimento de 0.
+//Para uma string vazia, s == "" é verdade, mas s == null é falso.
     isEmpty() {
         return this.head === null;
     }
